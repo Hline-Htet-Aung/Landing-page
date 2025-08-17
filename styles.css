@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap : 16px;
+    padding: 16px;
+    background-color: #1F1937;
+    color: white;
+}
+
+.footer {
+    background-color: #1F1937;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0;
+}
+
+.intro{
+    display: flex;
+    background-color: #1F1937;
+    color: white;
+    padding: 16px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 50px;
+    gap: 16px;
+}
+
+.title1 {
+    font-size:48px;
+    font-weight: 900;
+}
+.text1 {
+    font-size: 24px;
+    margin: 16px 0;
+    text-align: left;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+}
+
+.title2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    text-align: start;
+    margin: 32px 0;
+    padding: 36px;
+    background-color: #E5E7EB;
+}
+
+.writer {
+    font-size: 20px;
+    text-align: end;
+    margin-right: 32px;
+    font-weight: 900;
+}
+
+.action-pannel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+.action-text {
+    font-size: 24px;
+    text-align: center;
+    gap: 18px;
+}
+
+.title4{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: start;
+}
+
+.text4 {
+    font-size: 20px;
+    text-align: start;
+    margin: 8px 0;
+}
+
+.action-pannel button {
+    padding: 12px 24px;
+    background-color: #1F1937;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
